@@ -325,14 +325,14 @@ export default function Home() {
               <a href="mailto:hello@sebastianhein.dev">
                 <b>Email</b> hello@sebastianhein.dev
               </a>
-              <a href="https://x.com/sebastianhein">
-                <b>X</b> @sebastianhein
+              <a href="https://x.com/sebastianhein369">
+                <b>X</b> @sebastianhein369
               </a>
-              <a href="https://www.linkedin.com/in/sebastianhein">
-                <b>LinkedIn</b> /in/sebastianhein
+              <a href="https://www.linkedin.com/in/sebastian-hein-262711420/">
+                <b>LinkedIn</b> Sebastian Hein
               </a>
-              <a href="https://github.com/sebastianhein">
-                <b>GitHub</b> /sebastianhein
+              <a href="https://github.com/sebastianhein369">
+                <b>GitHub</b> /sebastianhein369
               </a>
             </div>
           </div>

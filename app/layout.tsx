@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@sebastianhein",
-    creator: "@sebastianhein",
+    site: "@sebastianhein369",
+    creator: "@sebastianhein369",
     title: "Sebastian Hein — Autonomous on-chain + AI systems",
     description: DESCRIPTION,
     images: ["/og.png"],
@@ -52,7 +52,7 @@ const JSON_LD = {
   address: { "@type": "PostalAddress", addressLocality: "Sóller", addressRegion: "Mallorca", addressCountry: "ES" },
   knowsLanguage: ["de", "en", "es"],
   knowsAbout: ["Chainlink CRE", "Solidity", "DeFi", "Smart contract security", "AI agent orchestration", "Quantitative trading"],
-  sameAs: ["https://x.com/sebastianhein", "https://www.linkedin.com/in/sebastianhein", "https://github.com/sebastianhein"],
+  sameAs: ["https://x.com/sebastianhein369", "https://www.linkedin.com/in/sebastian-hein-262711420/", "https://github.com/sebastianhein369"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
