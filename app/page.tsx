@@ -1,4 +1,3 @@
-import Starmap from "./components/Starmap";
 import ThemeToggle from "./components/ThemeToggle";
 
 export default function Home() {
@@ -32,7 +31,6 @@ export default function Home() {
       <main id="top">
         {/* HERO */}
         <section className="hero" aria-label="Introduction">
-          <Starmap />
           <div className="veil" />
           <div className="wrap grid">
             <div>
@@ -158,8 +156,7 @@ export default function Home() {
               <span className="eyebrow">The system · capitalMagic</span>
               <h2>A ~148K-LOC autonomous system, one operator.</h2>
               <p className="lede">
-                Data flows one way, every stage is gated, and the whole topology renders as living data-art — the same
-                starmap you see behind the hero.
+                Data flows one way, every stage is gated, and every layer is one I designed, built, and operate solo.
               </p>
             </div>
             <div className="flowcap">
@@ -169,8 +166,8 @@ export default function Home() {
               <div className="mod">
                 <span className="dot" />
                 <span className="n">01 / EXECUTION</span>
-                <span className="t">Hyperliquid bots</span>
-                <span className="d">&quot;Wolf&quot; + firewalled &quot;Chad&quot; fleet, exchange-side stops.</span>
+                <span className="t">Hyperliquid perps</span>
+                <span className="d">Automated perps bots with exchange-side stops + isolated sub-account margin firewalls.</span>
               </div>
               <div className="mod">
                 <span className="dot" />
@@ -193,8 +190,8 @@ export default function Home() {
               <div className="mod">
                 <span className="dot" />
                 <span className="n">05 / OPS</span>
-                <span className="t">Pi 5 &quot;Riad&quot;</span>
-                <span className="d">systemd + git-CD, fail-closed, Tailscale-only edge stack.</span>
+                <span className="t">Raspberry Pi 5</span>
+                <span className="d">systemd + git-CD, fail-closed deploys, Tailscale-only edge stack.</span>
               </div>
               <div className="mod">
                 <span className="dot" />
@@ -240,12 +237,12 @@ export default function Home() {
                   <b>12+</b>
                 </div>
                 <div className="row2">
-                  <span>DCAChamp.sol</span>
-                  <b className="addr">0x…verify ↗</b>
+                  <span>Solidity</span>
+                  <b>0.8.20 · OpenZeppelin v5</b>
                 </div>
                 <div className="row2">
-                  <span>MainDistribution.sol</span>
-                  <b className="addr">0x…verify ↗</b>
+                  <span>Security audits</span>
+                  <b>52 / 78-agent · 0 crit/high</b>
                 </div>
                 <div className="row2">
                   <span>CRE workflows</span>
@@ -287,7 +284,7 @@ export default function Home() {
                 <div className="price">
                   from $15k <small>fixed</small>
                 </div>
-                <p>Solidity authorship plus a DANKO-style multi-agent security review.</p>
+                <p>Solidity authorship plus a multi-agent adversarial security review.</p>
               </article>
               <article className="card">
                 <span className="tag">HIP-3</span>
