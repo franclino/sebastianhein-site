@@ -266,7 +266,8 @@ export default function Home() {
               <span className="eyebrow">Work with me</span>
               <h2>One builder replaces a small team.</h2>
               <p className="lede">
-                Fixed-scope engagements so you can say yes fast. Remote, worldwide — invoiced in USD/USDC.
+                Every engagement is scoped and quoted to the build — tell me what you&apos;re shipping. Remote,
+                worldwide, invoiced in USD/USDC.
               </p>
             </div>
             <div className="svc">
