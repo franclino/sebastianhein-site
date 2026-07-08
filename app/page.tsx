@@ -274,7 +274,7 @@ export default function Home() {
                 <span className="tag">Wedge</span>
                 <h3>CRE / Chainlink Integration Sprint</h3>
                 <div className="price">
-                  from $30k <small>fixed</small>
+                  Fixed-scope <small>engagement</small>
                 </div>
                 <p>Data Feeds + CCIP + on-DON automation, wired, hardened, and reviewed.</p>
               </article>
@@ -282,7 +282,7 @@ export default function Home() {
                 <span className="tag">Pre-launch</span>
                 <h3>Contract + Adversarial Audit</h3>
                 <div className="price">
-                  from $15k <small>fixed</small>
+                  Fixed-scope <small>engagement</small>
                 </div>
                 <p>Solidity authorship plus a multi-agent adversarial security review.</p>
               </article>
@@ -290,9 +290,9 @@ export default function Home() {
                 <span className="tag">HIP-3</span>
                 <h3>Perps Automation &amp; Risk Layer</h3>
                 <div className="price">
-                  from $30k <small>+ retainer</small>
+                  Project <small>+ monthly retainer</small>
                 </div>
-                <p>Exchange-side risk, sub-account firewalls, and on-chain execution for HIP-3 teams.</p>
+                <p>Exchange-side risk, sub-account firewalls, and on-chain execution for perps teams.</p>
               </article>
             </div>
             <div className="svc-note">
