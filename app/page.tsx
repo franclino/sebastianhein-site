@@ -15,6 +15,7 @@ export default function Home() {
           <nav>
             <a href="#build">Work</a>
             <a href="#system">System</a>
+            <a href="#use-cases">Use cases</a>
             <a href="#proof">Proof</a>
             <a href="#services">Services</a>
             <a href="#contact">Contact</a>
@@ -66,7 +67,7 @@ export default function Home() {
                 <i className="g" />
                 <i />
                 <i />
-                <span>~/capitalMagic — git log</span>
+                <span>~/systems — git log</span>
               </div>
               <div className="body">
                 <div className="cmd">$ git log --author=&quot;Sebastian Hein&quot; --stat</div>
@@ -153,7 +154,7 @@ export default function Home() {
         <section id="system">
           <div className="wrap">
             <div className="sec-head">
-              <span className="eyebrow">The system · capitalMagic</span>
+              <span className="eyebrow">The system</span>
               <h2>A ~148K-LOC autonomous system, one operator.</h2>
               <p className="lede">
                 Data flows one way, every stage is gated, and every layer is one I designed, built, and operate solo.
@@ -253,6 +254,55 @@ export default function Home() {
                   <b>on-chain before stated</b>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <hr className="divider" />
+
+        {/* USE CASES — self-recognition ("aha, that's us") */}
+        <section id="use-cases">
+          <div className="wrap">
+            <div className="sec-head">
+              <span className="eyebrow">Sound familiar?</span>
+              <h2>You&apos;ve probably got one of these.</h2>
+              <p className="lede">
+                If one of these is your situation, we should talk. Each is a system I&apos;ve already built and
+                hardened — adapted to you, not built from a blank repo. A proven starting point, so you skip the
+                expensive part.
+              </p>
+            </div>
+            <div className="pillars">
+              <article className="card">
+                <span className="tag">Treasury</span>
+                <h3>Revenue lands on-chain, and splitting it is manual.</h3>
+                <p>An on-chain treasury that allocates itself — risk-tiered accounts, automated distribution, on-chain tax withholding.</p>
+              </article>
+              <article className="card">
+                <span className="tag">On-DON</span>
+                <h3>You want your logic running on-DON, but the runtime is brand new.</h3>
+                <p>Proven Chainlink CRE workflows — event/HTTP/cron triggers, DON consensus, circuit-breakers — wired to your protocol. Skip the from-zero curve.</p>
+              </article>
+              <article className="card">
+                <span className="tag">Perps risk</span>
+                <h3>You can write the strategy — you can&apos;t afford the bug that blows the account.</h3>
+                <p>A hardened perps execution layer: exchange-side stops, sub-account margin firewalls, API-is-truth reconciliation, fail-closed deploys. Your strategy, on rails that don&apos;t break.</p>
+              </article>
+              <article className="card">
+                <span className="tag">Validation</span>
+                <h3>Your backtest looks incredible. That&apos;s exactly the problem.</h3>
+                <p>A walk-forward + Deflated-Sharpe harness that makes a strategy prove itself out-of-sample before it touches capital — or before you quote a number.</p>
+              </article>
+              <article className="card">
+                <span className="tag">AI automation</span>
+                <h3>You want AI automation you can trust with real data — not a demo that hallucinates.</h3>
+                <p>A multi-agent framework that verifies itself: cost-tiered routing, adversarial checks, and a guardian that audits the system on a schedule.</p>
+              </article>
+              <article className="card">
+                <span className="tag">Edge ops</span>
+                <h3>Mission-critical automation, 24/7, without surrendering it to a cloud bill.</h3>
+                <p>A self-hosted ops stack — fail-closed deploys, watchdogs, private networking, one-way data flow — running on hardware you own.</p>
+              </article>
             </div>
           </div>
         </section>
