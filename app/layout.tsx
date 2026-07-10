@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Sebastian Hein — Autonomous on-chain + AI systems",
     description: DESCRIPTION,
     siteName: "Sebastian Hein",
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sebastian Hein — capitalMagic system map" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sebastian Hein — autonomous systems architecture" }],
   },
   twitter: {
     card: "summary_large_image",
