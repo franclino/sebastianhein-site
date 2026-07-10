@@ -173,7 +173,7 @@ export default function Home() {
                 <span className="dot" />
                 <span className="n">02 / ON-CHAIN</span>
                 <span className="t">Arbitrum contracts</span>
-                <span className="d">12+ Solidity contracts — DCA, waterfall, tax, oracle, CCIP.</span>
+                <span className="d">12+ Solidity contracts — capital allocation, distribution, tax, oracle, CCIP.</span>
               </div>
               <div className="mod">
                 <span className="dot" />
